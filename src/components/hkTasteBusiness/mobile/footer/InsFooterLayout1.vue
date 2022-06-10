@@ -18,10 +18,10 @@
                   </ul>
               </div>
           <div class="footerAccept">
-            <p><img src="/images/pc/master.jpg"></p>
+            <p><img src="/images/pc/vm.png"></p>
           </div>
           <div class="footerCpy">
-            <p>Copyright {{currentYear}} © LKS Display Box Acrylic HK<br>Powered by Intimex<img src="/images/mobile/footerlogo.png"></p>
+            <p>Copyright {{currentYear}} © LKS Display Box Acrylic HK<br>power by eventizer<img src="/images/pc/startup-logo.png"></p>
           </div>
     </div>
 </div>
@@ -94,7 +94,7 @@ export default class InsFooter extends Vue {
         font-size: 1.2rem;
         text-align: center;
         img{
-          width: 1.5rem;
+          width: 5rem;
           display: inline-block;
           margin-left: 1rem;
           vertical-align: middle;
@@ -111,7 +111,7 @@ export default class InsFooter extends Vue {
         justify-content: center;
         img{
           display: block;
-          margin-left: 1rem;
+          height: 50px;
         }
       }
     }

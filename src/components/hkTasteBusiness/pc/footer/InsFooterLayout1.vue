@@ -21,7 +21,7 @@
             <p><img src="/images/pc/pcindex_09.png" /></p>
           </div>
           <div class="clear"></div>
-           <p class="footercopy"><span>Copyright {{currentYear}} © LKS Display Box Acrylic HK  Powered by Intimex<img src="/images/pc/footerlogo.png"></span><span><img src="/images/pc/master.jpg" /></span></p>
+           <p class="footercopy"><span>Copyright {{currentYear}} © LKS Display Box Acrylic HK  power by eventizer<img src="/images/pc/startup-logo.png"></span><span><img src="/images/pc/vm.png" /></span></p>
         </div>
     </div>
   </div>
@@ -173,6 +173,7 @@ export default class InsFooterLayout1 extends Vue {
   display: inline-block;
   vertical-align:middle;
   padding-left: 10px;
+  height: 50px;
 }
 .footercopy span:nth-child(2){
   float: right;
@@ -185,5 +186,6 @@ export default class InsFooterLayout1 extends Vue {
   display: inline-block;
   vertical-align:middle;
   padding-left: 10px;
+  height: 50px;
 }
 </style>
